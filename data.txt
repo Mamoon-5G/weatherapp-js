@@ -1,0 +1,6 @@
+feels_like.innerHTML = response.feels_like 
+humidity.innerHTML = response.humidity
+pressure.innerHTML = response.pressure
+temp.innerHTML = response.temp
+temp_max.innerHTML = response.temp_max
+temp_min.innerHTML = response.temp_min

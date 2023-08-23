@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="key.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>Weather Dashboard</h1>
+    <div class="container">
+
+        <div class="weather-input">
+            <h3>Enter a city name</h3>
+            <input type="text" class="city" placeholder="Eg. Mumbai, London, Dubai">
+            <button class="search-btn">Search</button>
+            <div class="seperator"></div>
+            <button class="location">Use the current location</button>
+        </div>
+        <div class="weather-data">
+            <div class="current-weather">
+                <div class="details">
+                    <h2>____ (____)</h2>
+                    <h4>Temperature: __°C</h4>
+                    <h4>Wind: __m/s</h4>
+                    <h4>Humidity: __%</h4>
+                </div>
+                <div class="icon">
+                    <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                    <h4></h4>
+                </div>
+            </div>
+            <div class="days-forecast">
+                <h2>5 days forecast</h2>
+                <ul class="weather-cards">
+                    <li class="card">
+                        <h3>(____)</h3>
+
+                        <h4>Temp: __°C</h4>
+                        <h4>Wind: __m/s</h4>
+                        <h4>Humidity: __%</h4>
+                    </li>
+                    <li class="card">
+                        <h3>(____)</h3>
+
+                        <h4>Temp: __°C</h4>
+                        <h4>Wind: __m/s</h4>
+                        <h4>Humidity: __%</h4>
+                    </li>
+                    <li class="card">
+                        <h3>(____)</h3>
+
+                        <h4>Temp: __°C</h4>
+                        <h4>Wind: __m/s</h4>
+                        <h4>Humidity: __%</h4>
+                    </li>
+                    <li class="card">
+                        <h3>(____)</h3>
+
+                        <h4>Temp: __°C</h4>
+                        <h4>Wind: __m/s</h4>
+                        <h4>Humidity: __%</h4>
+                    </li>
+                    <li class="card">
+                        <h3>(____)</h3>
+
+                        <h4>Temp: __°C</h4>
+                        <h4>Wind: __m/s</h4>
+                        <h4>Humidity: __%</h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footerText">
+            <span>Created By <a href="https://github.com/mamoon-4g" target="_blank">Siddiqui Mamoon</a> | &#169; 2022 All Rights
+                Reserved</span>
+        </div>
+    </div>
+</body>
+
+</html>
